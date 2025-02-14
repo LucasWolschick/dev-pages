@@ -1,0 +1,7 @@
+<ul class="users">
+@for (user of userList; track user.id) {
+    <li>
+        <user-card [data]="user" />
+    </li>
+}
+</ul>

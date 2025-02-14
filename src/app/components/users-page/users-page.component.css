@@ -1,0 +1,6 @@
+.users {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}

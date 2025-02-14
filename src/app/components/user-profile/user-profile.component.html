@@ -1,0 +1,85 @@
+@if (user) {
+
+<div class="user-profile two-rows">
+  <div class="row-left">
+    <picture class="user-picture">
+      <img
+        src="/user.jpg"
+        alt="Foto do usuário"
+        aria-hidden="true"
+        height="150"
+      />
+    </picture>
+
+    <div class="user-socials">
+      @if (user.socials) {
+      <h2>Contato</h2>
+      <ul>
+        @if (user.socials.email) {
+        <li><b>Email: </b> {{ user.socials.email }}</li>
+        } @if (user.socials.github) {
+        <li><b>GitHub: </b> {{ user.socials.github }}</li>
+        } @if (user.socials.linkedin) {
+        <li><b>LinkedIn: </b> {{ user.socials.linkedin }}</li>
+        }
+      </ul>
+      }
+    </div>
+  </div>
+
+  <div class="row-right">
+    <h1 class="user-name">{{ user.name }}</h1>
+    <p class="user-bio">{{ user.bio }}</p>
+    <div class="user-skills">
+      <p>Habilidades:</p>
+      <ul class="bean-list">
+        @for (skill of user.skills; track skill) {
+        <li class="bean">{{ skill }}</li>
+        }
+      </ul>
+    </div>
+    <div class="user-experiences">
+      <h1>Experiência</h1>
+      <ul class="user-experiences">
+        @for (experience of user.experiences; track experience) {
+        <li>
+          <div class="title">
+            <h2 class="place">{{ experience.place }}</h2>
+            <span class="date"
+              >{{ experience.from }} &ndash; {{ experience.to }}</span
+            >
+          </div>
+          <p class="desc">{{ experience.description }}</p>
+        </li>
+        }
+      </ul>
+    </div>
+
+    <div class="user-projects">
+      <h1>Projetos</h1>
+      <ul class="user-projects">
+        @for (project of user.projects; track project) {
+        <li>
+          <h2 class="name">{{ project.name }}</h2>
+          <span class="link">{{ project.link }}</span>
+          <ul class="technologies bean-list">
+            @for (tech of project.technologies; track tech) {
+            <li class="bean">{{ tech }}</li>
+            }
+          </ul>
+          <p>{{ project.description }}</p>
+        </li>
+        }
+      </ul>
+    </div>
+  </div>
+</div>
+
+} @else {
+
+<div class="user-profile loading">
+  Carregando...
+  <span class="spinner">🌀</span>
+</div>
+
+}

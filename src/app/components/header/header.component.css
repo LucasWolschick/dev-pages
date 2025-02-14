@@ -1,0 +1,35 @@
+header {
+  width: calc(100% - 2rem);
+  margin: 1rem;
+  border: 3px double var(--dark-border-color);
+  padding: 1rem;
+
+  background: repeating-linear-gradient(
+    45deg,
+    var(--background-color),
+    var(--background-color) 15px,
+    color-mix(in oklab, var(--background-color), black 2%) 15px,
+    color-mix(in oklab, var(--background-color), black 2%) 25px
+  );
+
+  box-shadow: inset 0px 0px 0px 10px var(--background-color);
+}
+
+header h1 {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: black underline solid 2px;
+}
+
+header a:link,
+header a:hover,
+header a:active,
+header a:visited {
+  color: black;
+}

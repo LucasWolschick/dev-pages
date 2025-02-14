@@ -1,0 +1,23 @@
+<div class="user-card">
+  <picture class="user-picture">
+    <img
+      src="/user.jpg"
+      alt="Foto do usuário"
+      aria-hidden="true"
+      height="150"
+    />
+  </picture>
+  <h2 class="user-name">{{ data.name }}</h2>
+  <p class="user-bio">{{ data.bio }}</p>
+  <div class="user-skills">
+    <p>Habilidades:</p>
+    <ul class="bean-list">
+      @for (skill of data.skills; track skill) {
+      <li class="bean">
+        {{ skill }}
+      </li>
+      }
+    </ul>
+    <a class="user-link" href="/users/{{ data.id }}/profile">Ver perfil...</a>
+  </div>
+</div>

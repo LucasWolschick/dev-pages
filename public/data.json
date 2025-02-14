@@ -1,0 +1,158 @@
+[
+  {
+    "id": 0,
+    "name": "Jonas Dev",
+    "socials": {
+      "email": "yp@jonas.dev",
+      "github": "JonasDev",
+      "linkedin": "jonas-dev"
+    },
+    "bio": "Generalista que adora aprender coisas novas. Buscando pela próxima etapa da minha vida no momento.",
+    "skills": ["C++", "C", "Python", "Java"],
+    "experiences": [
+      {
+        "place": "Google",
+        "from": "2024-01",
+        "to": "2024-09",
+        "description": "No meu tempo no Google, implementei o YouTube."
+      },
+      {
+        "place": "Microsoft",
+        "from": "2023-01",
+        "to": "2023-12",
+        "description": "Trabalhei no desenvolvimento de ferramentas de produtividade."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Weather App",
+        "description": "Um aplicativo de previsão do tempo que fornece atualizações em tempo real.",
+        "technologies": ["Python", "Flask", "API"],
+        "link": "https://github.com/JonasDev/weather-app"
+      },
+      {
+        "name": "Task Manager",
+        "description": "Uma ferramenta de gerenciamento de tarefas para ajudar a organizar e priorizar tarefas.",
+        "technologies": ["Java", "Spring Boot", "MySQL"],
+        "link": "https://github.com/JonasDev/task-manager"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Alice Script",
+    "socials": {
+      "email": "alice@script.dev",
+      "github": "AliceScript",
+      "linkedin": "alice-script"
+    },
+    "bio": "Desenvolvedora full-stack com paixão por criar aplicações web dinâmicas.",
+    "skills": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "experiences": [
+      {
+        "place": "Facebook",
+        "from": "2023-05",
+        "to": "2024-02",
+        "description": "Desenvolvi e mantive recursos para a aplicação web do Facebook."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Chat Application",
+        "description": "Um aplicativo de chat em tempo real com autenticação de usuário.",
+        "technologies": ["React", "Firebase"],
+        "link": "https://github.com/AliceScript/chat-application"
+      },
+      {
+        "name": "E-commerce Platform",
+        "description": "Uma plataforma online para compra e venda de produtos.",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "link": "https://github.com/AliceScript/e-commerce-platform"
+      },
+      {
+        "name": "Portfolio Website",
+        "description": "Um site de portfólio pessoal para mostrar meus projetos e habilidades.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "link": "https://alice.script.dev"
+      },
+      {
+        "name": "Weather Dashboard",
+        "description": "Um painel para monitorar condições climáticas em tempo real.",
+        "technologies": ["React", "Node.js"],
+        "link": "https://github.com/AliceScript/weather-dashboard"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bob Jango",
+    "socials": {
+      "email": "bob@jango.dev",
+      "github": "BobJango",
+      "linkedin": "bob-jango"
+    },
+    "bio": "Desenvolvedor backend com expertise em construir serviços web escaláveis.",
+    "skills": ["Python", "Django", "PostgreSQL", "Docker"],
+    "experiences": [
+      {
+        "place": "Amazon",
+        "from": "2022-08",
+        "to": "2023-12",
+        "description": "Trabalhei em serviços backend para a plataforma de e-commerce da Amazon."
+      },
+      {
+        "place": "IBM",
+        "from": "2021-01",
+        "to": "2022-07",
+        "description": "Desenvolvi soluções de cloud computing para clientes empresariais."
+      }
+    ],
+    "projects": [
+      {
+        "name": "API Gateway",
+        "description": "Um gateway para gerenciar solicitações e respostas de API.",
+        "technologies": ["Python", "Flask", "Docker"],
+        "link": "https://github.com/BobJango/api-gateway"
+      },
+      {
+        "name": "Inventory Management System",
+        "description": "Um sistema para gerenciar inventário para pequenas empresas.",
+        "technologies": ["Django", "PostgreSQL"],
+        "link": "https://github.com/BobJango/inventory-management"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Carol Vue",
+    "socials": {
+      "email": "carol@vue.dev",
+      "github": "CarolVue",
+      "linkedin": "carol-vue"
+    },
+    "bio": "Desenvolvedora frontend com talento para criar interfaces de usuário intuitivas.",
+    "skills": ["HTML", "CSS", "JavaScript", "Vue.js"],
+    "experiences": [
+      {
+        "place": "Netflix",
+        "from": "2021-11",
+        "to": "2023-07",
+        "description": "Desenhei e implementei interfaces de usuário para a aplicação web da Netflix."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Recipe Finder",
+        "description": "Um aplicativo web para encontrar e compartilhar receitas.",
+        "technologies": ["Vue.js", "Node.js"],
+        "link": "https://github.com/CarolVue/recipe-finder"
+      },
+      {
+        "name": "Movie Review App",
+        "description": "Um aplicativo para revisar e avaliar filmes.",
+        "technologies": ["Vue.js", "Firebase"],
+        "link": "https://github.com/CarolVue/movie-review-app"
+      }
+    ]
+  }
+]
